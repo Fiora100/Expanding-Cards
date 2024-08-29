@@ -33,18 +33,18 @@ main{
     justify-content: center;
     align-items: center;
     height: 90vh;
-    width: clamp(5760px,90vw,11520px);
+    width: 100vw;
 }
 
 .panel {
     position: relative;
     background-size: cover;
-    height: 60vh;
-    border-radius:50px;
-    flex: 0.5;
+    height: 70vh;
+    border-radius:60px;
+    flex: 1;
     background-position: center;
     overflow: hidden;
-    margin: 0px 10px;
+    margin: 0px 20px;
     cursor: pointer;
     transition: flex 1s;
 }
